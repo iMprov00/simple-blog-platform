@@ -10,6 +10,7 @@ h1 {
     padding-bottom: 10px;
 }
 .header {
-    text-align: left;
+    text-align: left, center;
     font-size: 2em;
+    text-align: center;
 }
