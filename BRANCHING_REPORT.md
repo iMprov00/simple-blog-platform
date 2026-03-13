@@ -9,9 +9,11 @@
 ## Branch History
 git log --graph --oneline --all
 
-*   fa8ad3a (HEAD -> master, origin/master) Merge branch 'documentation'
+
+* dab741c (HEAD -> master, origin/master) Add BRANCHING_REPORT.md
+*   fa8ad3a Merge branch 'documentation'
 |\
-| * 7c54907 (documentation) Update documentation
+| * 7c54907 (origin/documentation, documentation) Update documentation
 |/
 *   e6fb158 Merge feature/header-update with conflict resolution
 |\
@@ -25,6 +27,7 @@ git log --graph --oneline --all
 |/
 * 4cc00b5 Add posts page and functionality
 * 45dc575 Initial project setup
+
 
 ## Lessons Learned
 Я узнал что существует 2 вида слияния: быстрая перемотка (fast-forward), когда ветка, грубо говоря, просто переходит обратно в основную, тогда по логам даже не будет видно что было слияние веток (если при слиянии не укажут флаг --no-ff), а так же узнал про трехсторонее слияние (3-way merge), когда 2 и более веток развивались отдельно. В таком случае обе и более веток имеют уникальные коммиты. При объеднинении ветки сравнивают начальный коммти (с которого началось ветвление), и в случае конфлика сообщают об этом пользователю.
